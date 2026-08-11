@@ -1,5 +1,5 @@
 /**
- * AI Service for AgriGuard AI
+ * AI Service for AgriPulse AI
  * Image Diagnostics & Agronomic Chat Assistant
  * Adheres strictly to agricultural safety rules: non-guaranteed AI assessments
  * and expert consultation disclaimers.
@@ -95,7 +95,7 @@ export const askFarmerAssistant = async (question, currentScanContext = null, we
       keyAdvice = [
         "Take a clear photo under direct natural sunlight",
         "Focus closely on the spot or lesion boundary",
-        "Upload the photo to AgriGuard AI scanner"
+        "Upload the photo to AgriPulse AI scanner"
       ];
     }
   } else if (lowerQ.includes('spray') || lowerQ.includes('chemical') || lowerQ.includes('pesticide') || lowerQ.includes('timing')) {
@@ -132,7 +132,7 @@ export const askFarmerAssistant = async (question, currentScanContext = null, we
       "Mulch soil bed to prevent rain-splash spore transmission from ground to leaf"
     ];
   } else {
-    replyText = `I am AgriGuard AI, your climate resilience and agronomy assistant. I can help analyze crop diseases, check optimal spraying windows based on weather forecasts, and suggest preventive practices.`;
+    replyText = `I am AgriPulse AI, your climate resilience and agronomy assistant. I can help analyze crop diseases, check optimal spraying windows based on weather forecasts, and suggest preventive practices.`;
     keyAdvice = [
       "Ask: 'Should I spray my crop today?'",
       "Ask: 'How can I reduce disease risk in high humidity?'",
@@ -144,6 +144,6 @@ export const askFarmerAssistant = async (question, currentScanContext = null, we
     text: replyText,
     bulletPoints: keyAdvice,
     timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-    disclaimer: 'AgriGuard AI provides preliminary AI-assisted agronomic guidance. Always follow product label safety instructions and consult local agricultural authorities.'
+    disclaimer: 'AgriPulse AI provides preliminary AI-assisted agronomic guidance. Always follow product label safety instructions and consult local agricultural authorities.'
   };
 };

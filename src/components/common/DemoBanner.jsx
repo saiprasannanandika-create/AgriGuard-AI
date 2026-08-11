@@ -49,12 +49,12 @@ export default function DemoBanner() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg text-white">Environment Configuration</h3>
-                <p className="text-xs text-slate-400">AgriGuard AI API Integration</p>
+                <p className="text-xs text-slate-400">AgriPulse AI API Integration</p>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-slate-300 mb-4 leading-relaxed">
-              AgriGuard AI is designed to run seamlessly in <strong>Demo Mode</strong> without any external configuration. To connect live services, create a <code className="bg-slate-800 px-1.5 py-0.5 rounded text-emerald-300">.env</code> file in the project root:
+              AgriPulse AI is designed to run seamlessly in <strong>Demo Mode</strong> without any external configuration. To connect live services, create a <code className="bg-slate-800 px-1.5 py-0.5 rounded text-emerald-300">.env</code> file in the project root:
             </p>
 
             <div className="bg-slate-950 p-3 rounded-xl font-mono text-xs text-slate-300 border border-slate-800 space-y-1 mb-4">

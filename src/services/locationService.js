@@ -1,5 +1,5 @@
 /**
- * Geolocation & Reverse Geocoding Service for AgriGuard AI
+ * Geolocation & Reverse Geocoding Service for AgriPulse AI
  */
 
 export const getCurrentLocation = () => {

@@ -46,7 +46,7 @@ export default function LandingPage({ setActiveTab }) {
 
             {/* Subtitle */}
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
-              AgriGuard AI combines computer vision crop leaf diagnostics, hyperlocal weather data, and climate risk modeling to deliver instant, actionable guidance directly to farmers.
+              AgriPulse AI combines computer vision crop leaf diagnostics, hyperlocal weather data, and climate risk modeling to deliver instant, actionable guidance directly to farmers.
             </p>
 
             {/* Feature Badges */}
@@ -154,7 +154,7 @@ export default function LandingPage({ setActiveTab }) {
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
             <Layers className="w-3.5 h-3.5" /> 4-Step Agronomic Pipeline
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">How AgriGuard AI Works</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">How AgriPulse AI Works</h2>
           <p className="text-slate-400 text-sm">
             Bridging raw field symptoms with real-time micro-climate intelligence to protect crops and maximize yield.
           </p>

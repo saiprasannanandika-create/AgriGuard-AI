@@ -46,7 +46,7 @@ export default function Navbar({ activeTab, setActiveTab, unreadAlertsCount = 2,
           >
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-cyan-500 p-0.5 shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform duration-300">
               <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-                <img src="/leaf-logo.svg" alt="AgriGuard AI" className="w-6 h-6" />
+                <img src="/leaf-logo.svg" alt="AgriPulse AI" className="w-6 h-6" />
               </div>
             </div>
             <div>

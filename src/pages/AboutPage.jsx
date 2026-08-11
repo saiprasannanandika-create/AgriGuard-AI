@@ -22,7 +22,7 @@ export default function AboutPage({ setActiveTab }) {
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-semibold">
           <HelpCircle className="w-4 h-4" /> System Architecture & Agronomy Principles
         </div>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">About AgriGuard AI</h1>
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">About AgriPulse AI</h1>
         <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
           AI-Powered Crop Health & Climate Resilience Assistant designed for modern agriculture.
         </p>
@@ -32,7 +32,7 @@ export default function AboutPage({ setActiveTab }) {
       <div className="glass-panel rounded-3xl p-6 sm:p-8 border border-slate-800 space-y-8">
         <div className="text-center space-y-2">
           <h2 className="text-2xl font-bold text-white font-outfit">The Agronomic Pipeline</h2>
-          <p className="text-xs text-slate-400">How AgriGuard AI transforms raw leaf images into climate-smart field actions</p>
+          <p className="text-xs text-slate-400">How AgriPulse AI transforms raw leaf images into climate-smart field actions</p>
         </div>
 
         <div className="relative">
@@ -103,7 +103,7 @@ export default function AboutPage({ setActiveTab }) {
               <CheckCircle2 className="w-4 h-4" /> Non-Guaranteed AI Assessments
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              AgriGuard AI presents outputs as "AI-assisted preliminary assessments" rather than claiming 100% guaranteed diagnoses.
+              AgriPulse AI presents outputs as "AI-assisted preliminary assessments" rather than claiming 100% guaranteed diagnoses.
             </p>
           </div>
 
