@@ -1,4 +1,4 @@
-# AgriPulse AI – AI-Powered Crop Health & Climate Resilience Assistant
+# AgriGuard AI – AI-Powered Crop Health & Climate Resilience Assistant
 
 > **Tagline:** "From crop image to climate-smart action."
 
@@ -11,7 +11,7 @@
 
 ## 📌 Project Overview
 
-**AgriPulse AI** is a complete, hackathon-ready agricultural technology web application designed to act as a real-time bridge between physical field conditions and expert agronomic guidance. By fusing computer vision leaf diagnostics, geolocation, micro-climate weather telemetry, and agronomic risk modeling, AgriPulse AI empowers farmers to make climate-smart decisions that protect crop yield and prevent waste.
+**AgriGuard AI** is a complete, hackathon-ready agricultural technology web application designed to act as a real-time bridge between physical field conditions and expert agronomic guidance. By fusing computer vision leaf diagnostics, geolocation, micro-climate weather telemetry, and agronomic risk modeling, AgriGuard AI empowers farmers to make climate-smart decisions that protect crop yield and prevent waste.
 
 ---
 
@@ -27,7 +27,7 @@ Smallholder farmers and growers face severe agricultural risks due to changing c
 
 ## 💡 The AgriGuard Solution
 
-AgriPulse AI provides a seamless 5-stage agronomic pipeline:
+AgriGuard AI provides a seamless 5-stage agronomic pipeline:
 1. **Farmer Input**: Upload a photo of a diseased crop leaf or pick pre-loaded sample foliage.
 2. **AI Leaf Vision**: Computer vision algorithms identify leaf lesion geometries, chlorosis, and pustules.
 3. **Weather Telemetry Integration**: Detects hyperlocal temperature, humidity, rain probability, wind drift, and dew point.
@@ -49,7 +49,7 @@ AgriPulse AI provides a seamless 5-stage agronomic pipeline:
   - 24-hour hourly weather timeline slider + 3-day extended outlook.
   - Micro-climate risk scores (Rain wash-off risk, Heat stress, Fungal incubation pressure, Wind drift).
   - Optimal Spraying Window recommendations (e.g. "Tomorrow 06:00 - 09:00 AM").
-- **Ask AgriPulse AI Assistant**: Interactive conversational chat interface pre-seeded with farmer prompt chips ("Should I spray today?", "How to reduce fungal risk?"), context-aware scan integration, and safety disclaimers.
+- **Ask AgriGuard AI Assistant**: Interactive conversational chat interface pre-seeded with farmer prompt chips ("Should I spray today?", "How to reduce fungal risk?"), context-aware scan integration, and safety disclaimers.
 - **Alert Center**: Filterable high-priority notifications (Weather risk, Pest pressure, Monitoring reminders) categorized by severity (High, Moderate, Low).
 - **Scan History Log**: Historical archive of previous crop leaf scans with detailed inspection modal.
 - **About & Governance**: Detailed breakdown of system pipeline and agronomic safety principles.
@@ -134,7 +134,7 @@ npm install
 ```
 
 ### Step 2: Configure Environment Variables (Optional)
-AgriPulse AI runs **100% out-of-the-box in Demo Mode** with realistic mock data. To connect live API services, create a `.env` file:
+AgriGuard AI runs **100% out-of-the-box in Demo Mode** with realistic mock data. To connect live API services, create a `.env` file:
 
 ```env
 VITE_WEATHER_API_KEY=your_openweather_api_key_here
@@ -152,11 +152,11 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 🔮 Demo Mode
 
-When external API keys are omitted, AgriPulse AI operates in **Demo Mode**:
+When external API keys are omitted, AgriGuard AI operates in **Demo Mode**:
 1. Select pre-loaded sample crop photos (Tomato Early Blight, Corn Rust, Potato Late Blight, Healthy Wheat).
 2. Watch the multi-phase vision scanner run in real time.
 3. Review climate-smart risk scores, weather wash-off forecasts, and farmer advisory.
-4. Interact with the Ask AgriPulse AI Chat Assistant.
+4. Interact with the Ask AgriGuard AI Chat Assistant.
 
 ---
 
