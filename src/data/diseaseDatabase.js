@@ -1,5 +1,5 @@
 /**
- * AgriPulse AI Agronomic Knowledge Base
+ * AgriGuard AI Agronomic Knowledge Base
  * Contains detailed pathogen data, climate trigger thresholds,
  * symptom patterns, and safe prevention protocols.
  */

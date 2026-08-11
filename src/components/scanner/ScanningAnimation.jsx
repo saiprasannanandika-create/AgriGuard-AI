@@ -69,7 +69,7 @@ export default function ScanningAnimation({ imagePreview }) {
       </div>
 
       <div className="text-xs text-slate-400 italic">
-        AgriPulse AI is processing vision layers and local micro-climate risk...
+        AgriGuard AI is processing vision layers and local micro-climate risk...
       </div>
 
     </div>

@@ -14,7 +14,7 @@ export default function Footer({ setActiveTab }) {
               <div className="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
                 <img src="/leaf-logo.svg" alt="AgriGuard" className="w-5 h-5" />
               </div>
-              <span className="font-bold text-lg text-white font-outfit">AgriPulse AI</span>
+              <span className="font-bold text-lg text-white font-outfit">AgriGuard AI</span>
             </div>
             <p className="text-slate-400 text-xs leading-relaxed">
               "From crop image to climate-smart action." Real-time AI bridge connecting field crop conditions, micro-climate weather metrics, and agronomic guidance.
@@ -75,14 +75,14 @@ export default function Footer({ setActiveTab }) {
           <div className="space-y-3">
             <h4 className="text-white font-semibold text-sm tracking-wider uppercase text-xs">Agronomic Safety Notice</h4>
             <div className="p-3 rounded-xl bg-slate-900/90 border border-slate-800 text-[11px] leading-relaxed text-slate-400">
-              AgriPulse AI provides <strong>AI-assisted preliminary assessments</strong>. Outputs do not guarantee diagnosis or chemical prescriptions. Always verify with local agricultural extension officers and read official product label safety sheets.
+              AgriGuard AI provides <strong>AI-assisted preliminary assessments</strong>. Outputs do not guarantee diagnosis or chemical prescriptions. Always verify with local agricultural extension officers and read official product label safety sheets.
             </div>
           </div>
         </div>
 
         {/* Divider & Copyright */}
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} AgriPulse AI. AI-Powered Crop Health & Climate Resilience Assistant.</p>
+          <p>© {new Date().getFullYear()} AgriGuard AI. AI-Powered Crop Health & Climate Resilience Assistant.</p>
           <div className="flex items-center gap-4 text-slate-400">
             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300">
               Solo Hackathon Project

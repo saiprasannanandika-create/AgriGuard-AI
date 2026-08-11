@@ -1,5 +1,5 @@
 /**
- * Weather Service for AgriPulse AI
+ * Weather Service for AgriGuard AI
  * Hyperlocal micro-climate weather forecasting & agricultural risk metrics
  */
 

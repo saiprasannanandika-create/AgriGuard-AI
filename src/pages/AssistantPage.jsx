@@ -19,14 +19,14 @@ export default function AssistantPage({ selectedScanForChat, weather }) {
     {
       id: 'msg-1',
       sender: 'ai',
-      text: "Hello! I am AgriPulse AI, your climate resilience and agronomy assistant. How can I help you protect your crops today?",
+      text: "Hello! I am AgriGuard AI, your climate resilience and agronomy assistant. How can I help you protect your crops today?",
       bulletPoints: [
         "Upload a crop leaf scan for diagnostic guidance",
         "Ask about optimal spraying timing based on weather forecasts",
         "Explore preventive practices to reduce disease pressure"
       ],
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-      disclaimer: 'AgriPulse AI provides preliminary AI-assisted agronomic guidance. Always follow product label safety instructions and consult local agricultural experts.'
+      disclaimer: 'AgriGuard AI provides preliminary AI-assisted agronomic guidance. Always follow product label safety instructions and consult local agricultural experts.'
     }
   ]);
 
